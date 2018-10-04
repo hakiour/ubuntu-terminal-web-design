@@ -1,0 +1,176 @@
+/*Autor: Hamza Akiour (https://hamza.es)*/
+/*General*/
+body {
+ margin: 60px 50px 50px 50px  !important;
+
+}
+#upper-navbar{
+	display: none !important;
+}
+/*Navigation bar*/
+.navbar-design {
+	border-bottom: 3px solid #CA8DF7 !important;
+	font-size: 18px !important;
+}
+
+.nav.navbar-nav li a, .navbar-header a{
+    color: #85ce5b !important;
+}
+
+.navbar-brand{
+	font-size: 22px !important;
+}
+/*Navigation -> active elements*/
+.navbar.navbar-design li a:hover, .navbar.navbar-design li a:active, .navbar.navbar-design li a:focus  {
+    background-color: #081202 !important;
+    color: #edf8e7 !important;
+    font-size: 22px;
+}
+/*Navigation -> Buttons */
+.fa {
+	color: #85ce5b;
+	font-size: 20px !important;
+	margin-top: 7px;
+	padding:3px;
+}
+.fa:hover {
+	color: #edf8e7 !important;
+    font-size: 25px !important;
+    margin-top: 2px;
+    opacity: 0.8;
+}
+.inline{
+	display: inline-block;
+}
+/*P1
+h1.p1 {
+	text-align: left;
+	padding: 100px 0px 0px 0px;
+	font-weight: bold;
+}*/
+/*Text animation
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1.p1 { 
+    border-right: 3px solid black;
+    width: 10%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(9, end),
+               blink-caret .5s step-end infinite alternate;
+}
+/*Background*/
+div.intro:before{
+	background-image: url("../images/background.jpg");
+	content: "";
+	filter: blur(10px);
+	height: 600px;
+	margin:-50px;
+	opacity: 0.5;
+	position: fixed;
+	width: 100%;
+	z-index: -1; 
+}
+/*Terminal dessing*/
+#terminal{
+	font-family: "Ubuntu";
+	font-size: 15px;
+	max-width: 540px;
+	margin: auto;/*Centering the terminal*/
+}
+#intro-animation{
+	white-space:pre;
+}
+.intro-name{
+	color:red;
+	font-weight: bold;
+}
+.intro-body{
+	background:#300A24;
+	border-radius:1px;
+	border:2px solid #4A4842;
+	color:white;
+	font-size: 18px;
+	height: 300px;
+	margin:auto;
+	max-width: 540px;
+	max-height: 300px;
+	overflow-y: scroll;
+	padding:10px;
+}
+a.dropdown-terminal{
+	background-color: #4A4842 !important;
+	color: white !important;
+	font-size: 15px;
+	padding-left: 30px !important;
+}
+a.dropdown-terminal:hover{
+	background-color: #FC7337 !important;
+}
+.dropdown-toggle,a.dropdown-terminal:visited, a.dropdown-terminal:active {
+  color: white !important;
+}
+
+ul.dropdown-terminal, li.dropdown-terminal{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.intro-header{
+	background-color: #4A4842;
+	border-radius:1px;
+	list-style-type: none;
+    padding: 0;
+}
+.intro-header li{
+	display: inline;
+}
+.intro-header a{
+	color:white;
+}
+.buttonTerminal{
+	border-radius:50% !important;
+	border: none !important;
+	text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    margin:0 !important;
+    padding: 4px !important;
+    font-size: 8px !important;
+    color: #4A4842 !important;
+}
+.buttonTerminal span{
+
+}
+#buttonCloseTerminal{
+
+}
+#buttonMinimiceTerminal,#buttonMaximiceTerminal{
+	background-color: #8c8b86;
+}
+#buttonMinimiceTerminal:hover,#buttonMaximiceTerminal:hover{
+	background-color: #b7b5ac;
+}
+.intro-header-item{
+	display: inline-block;
+	margin: 0px;
+	padding:2px 10px 0px 15px;
+}
+.intro-header-item li{
+	margin: 0px 3px 0px 3px;
+
+}
+.intro-header-item a{
+	border: 1px solid #4A4842;
+	padding-left: 1px!important;
+	padding-right: 1px!important;
+}
+.intro-header-item a:hover{
+	border-top: 1px solid #302f2b !important;
+	border-right: 1px solid #302f2b !important;
+	border-left: 1px solid #302f2b !important;
+	text-decoration: none;
+	color:white;
+	padding-left: 1px!important;
+	padding-right: 1px!important;
+}

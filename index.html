@@ -1,0 +1,107 @@
+<html>
+<head>
+	<!--Autor: Hamza Akiour (https://hamza.es)*/-->
+	<title>Challenge: Portofolio</title>
+	<meta charset="utf-8">
+	<!-- Fonts -->
+	 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	<!-- Boostrap - Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--Buttons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Responsive Navbar
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.e2.1/jquery.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Jquiery UI-->
+  	<script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+  	<link rel="stylesheet"  type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.css">
+  	<!-- Typed js -->
+  	<script src="js/typed.js-master/lib/typed.min.js" type="text/javascript"></script>
+  	<!-- JS -->
+  	<script src="js/master.js"></script>
+	<!-- P5.js
+	<script src="libraries/p5/p5.min.js"></script>
+    <script src="libraries/p5/addons/p5.dom.min.js"></script>
+    <script src="libraries/p5/addons/p5.sound.min.js"></script>
+    <script src="js/sketch.js"></script>-->
+
+  </head>
+<body>
+	<!--Navigation bar-->
+	<nav id='upper-navbar' class="navbar navbar-inverse navbar-design navbar-fixed-top" id="navigation bar">
+		<div class="container-fluid">
+			<div class="navbar-header" >
+				<!--Dropdown button for small screens-->
+		      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navb">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>          
+		     	</button>
+		       <a class="navbar-brand" href="#">Hamza Akiour</a>
+		   </div>
+		   <div class="collapse navbar-collapse" id="navb">
+		   		<!--Items header-->
+		      	 <ul class="nav navbar-nav">
+		      	  <li><a href="#Inicio">Inicio</a></li>
+		      	  <li><a href="#Sobre_mi">Sobre mí</a></li>
+			      <li><a href="#Portofolio">Portofolio</a></li>
+			      <li><a href="#Habilidades">Habilidades</a></li>
+			      <li><a href="#Resumen">Resumen</a></li>
+			      <li><a href="#Contacto">Contacto</a></li>
+	   	  		</ul>
+	   	  		<!--Social buttons-->
+	   	  		<ul class="nav navbar-nav navbar-right">
+				    <a href="#" class="btn fa fa-linkedin"></a>
+		   	  		<a href="https://github.com/hakiour" class="btn fa fa-github"></a>
+			     </ul>
+	   	  </div>
+	  </div>
+	</nav>
+	<!--P1-->
+	<div class="intro">
+		<h2 class="intro"> Hola, soy</h2>
+		<h1 class="intro">  Hamza Akiour</h1>
+		<h2 class="intro"> Hola, soy</h2>
+	</div>
+
+		<div id="terminal" class="">
+			<div class="intro-header">
+				<div class="inline">
+					<ul class="intro-header-item">
+			      	  <li><a href="#Inicio">Inicio</a></li>
+			      	  <li><a href="#Sobre_mi">Sobre mí</a></li>
+						<div class="dropdown inline">
+							<li>
+								<a href="#Portofolio" class="dropdown-toggle" data-toggle="dropdown">Portofolio</a>
+							
+							<ul class="dropdown-menu dropdown-terminal">
+							  <li class="dropdown-terminal" ><a class="dropdown-terminal" href="#">Github</a></li>
+							  <li class="dropdown-terminal" ><a class="dropdown-terminal" href="#">Codepen</a></li>
+							</ul>
+							</li>
+						</div>
+				      <li><a href="#Habilidades">Habilidades</a></li>
+				      <li><a href="#Resumen">Resumen</a></li>
+				      <li><a href="#Contacto">Contacto</a></li>
+				   	</ul>
+			   	</div>
+				<button id="buttonMinimiceTerminal" type="button" class="btn btn-default buttonTerminal" aria-label="Left Align">
+					<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+				</button>
+				<button id="buttonMaximiceTerminal" type="button" class="btn btn-default buttonTerminal" aria-label="Left Align">
+					<span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+				</button>
+				<button id="buttonCloseTerminal" type="button" class="btn btn-danger buttonTerminal" aria-label="Left Align">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</button>
+			</div>
+			<div class="intro-body">
+				<span id="intro-animation"></span>
+			</div>
+		</div>
+</body>
+</html>
